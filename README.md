@@ -1,113 +1,157 @@
-# just-the-docs-template
+<a name="readme-top"></a>
 
-This is a *bare-minimum* template to create a [Jekyll] site that:
 
-- uses the [Just the Docs] theme;
-- can be built and published on [GitHub Pages];
-- can be built and previewed locally, and published on other platforms.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/mathematisse/Udots/Assets/Images/logo.png">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-More specifically, the created site:
+<h3 align="center">project_title</h3>
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem;
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages.
+  <p align="center">
+    project_description
+    <br />
+    <a href="https://mathematisse.github.io/Udots/"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/mathematisse/Udots/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/mathematisse/Udots/issues">Request Feature</a>
+  </p>
+</div>
 
-To get started with creating a site, just click "[use this template]"!
 
-After completing the creation of your new site on GitHub, update it as needed:
 
-## Replace the content of the template pages
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-Update the following files to your own content:
 
-- `index.md` (your new home page)
-- `README.md` (information for those who access your site repo on GitHub)
 
-## Changing the version of the theme and/or Jekyll
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Simply edit the relevant line(s) in the `Gemfile`.
 
-## Adding a plugin
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
-The Just the Docs theme automatically includes the [`jekyll-seo-tag`] plugin.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To add an extra plugin, you need to add it in the `Gemfile` *and* in `_config.yml`. For example, to add [`jekyll-default-layout`]:
 
-- Add the following to your site's `Gemfile`:
 
-  ```ruby
-  gem "jekyll-default-layout"
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
   ```
 
-- And add the following to your site's `_config.yml`:
+### Installation
 
-  ```yaml
-  plugins:
-    - jekyll-default-layout
-  ```
+1. Get a free API Key at 
+2. Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
 
-Note: If you are using a Jekyll version less than 3.5.0, use the `gems` key instead of `plugins`.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Publishing your site on GitHub Pages
 
-1.  If your created site is `YOUR-USERNAME/YOUR-SITE-NAME`, update `_config.yml` to:
 
-    ```yaml
-    title: YOUR TITLE
-    description: YOUR DESCRIPTION
-    theme: just-the-docs
+<!-- USAGE EXAMPLES -->
+## Usage
 
-    url: https://YOUR-USERNAME.github.io/YOUR-SITE-NAME
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-    aux_links: # remove if you don't want this link to appear on your pages
-      Template Repository: https://github.com/YOUR-USERNAME/YOUR-SITE-NAME
-    ```
+_For more examples, please refer to the [Documentation](https://mathematisse.github.io/Udots/)_
 
-2.  Push your updated `_config.yml` to your site on GitHub.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-3.  In your newly created repo on GitHub:
-    - go to the `Settings` tab -> `Pages` -> `Build and deployment`, then select `Source`: `GitHub Actions`.
-    - if there were any failed Actions, go to the `Actions` tab and click on `Re-run jobs`.
 
-## Building and previewing your site locally
 
-Assuming [Jekyll] and [Bundler] are installed on your computer:
+<!-- ROADMAP -->
+## Roadmap
 
-1.  Change your working directory to the root directory of your site.
+- [ ] Feature 1
+- [ ] Feature 2
+- [ ] Feature 3
+    - [ ] Nested Feature
 
-2.  Run `bundle install`.
+See the [open issues](https://github.com/mathematisse/Udots/issues) for a full list of proposed features (and known issues).
 
-3.  Run `bundle exec jekyll serve` to build your site and preview it at `localhost:4000`.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-    The built site is stored in the directory `_site`.
 
-## Publishing your built site on a different platform
 
-Just upload all the files in the directory `_site`.
+<!-- CONTRIBUTING -->
+## Contributing
 
-## Customization
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-You're free to customize sites that you create with this template, however you like!
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Licensing and Attribution
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!
 
-The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party [starter workflows]. A copy of their MIT License is available in [actions/starter-workflows].
 
-----
+<!-- LICENSE -->
+## License
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-[Jekyll]: https://jekyllrb.com
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[Bundler]: https://bundler.io
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
-[`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
-[`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
-[MIT License]: https://en.wikipedia.org/wiki/MIT_License
-[starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
-[actions/starter-workflows]: https://github.com/actions/starter-workflows/blob/main/LICENSE
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* []()
+* []()
+* []()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
